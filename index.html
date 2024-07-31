@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">               
+    </head>
+    <body>
+        <p id="clock-el" class="orangeCount counterStyling">15:00</p>
+        <div class="container">
+            
+            <!-- Home column of the board-->
+            <div>
+                <h3>HOME</h3>
+                <p id="home-score-el" class="redCount counterStyling"></p>
+                <h4>FOULS</h4>
+                <p id="home-fouls-el" class="orangeCount counterStyling"></p>
+                <div>
+                    <h4>CONTROLS</h4>
+                    <button id="home-1Pointer-el" onclick="home1Pointer()">+1</button>
+                    <button id="home-2Pointer-el" onclick="home2Pointer()">+2</button>
+                    <button id="home-3Pointer-el" onclick="home3Pointer()">+3</button>                    
+                    <button id="HOME-foul-el" onclick="homeFoul()">FOUL</button>
+                </div>
+            </div>
+            
+            <!-- Center Column of the board -->
+            <div id="period-section">
+                <h4>PERIOD</h4>
+                <p id="period-el" class="orangeCount counterStyling"></p>
+            </div>
+            
+            <!-- Guest column of the board-->
+            <div> 
+                <h3>GUEST</h3>
+                <p id="guest-score-el" class="redCount counterStyling"></p>
+                <h4>FOULS</h4>
+                <p id="guest-fouls-el" class="orangeCount counterStyling"></p>
+                <div>
+                    <h4>CONTROLS</h4>
+                    <button id="guest-1Pointer-el" onclick="guest1Pointer()">+1</button>
+                    <button id="guest-2Pointer-el" onclick="guest2Pointer()">+2</button>
+                    <button id="guest-3Pointer-el" onclick="guest3Pointer()">+3</button>
+                    <button id="guest-foul-el" onclick="guestFoul()">FOUL</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main game controls -->
+        <div id="resetSection">
+            <div>
+                <button id="btn-start-clock" onclick="startClock()">START</button>
+                <button id="btn-stop-clock" onclick="stopClock()">STOP</button>                    
+            </div>
+            <div>
+                <button id="btn-half-time" onclick="halfTime()">Half Time</button>                  
+                <button id="btn-add-five" onclick="addFive()">+5</button>
+                <button id="btn-minus-one" onclick="minusOne()">-1</button>     
+            </div>
+           <div class="container">
+                <button id="btn-period" onclick="newPeriod()">NEW PERIOD</button>
+            </div>
+            <div class="container">
+                <button id="btn-reset" onclick="resetBoard()">NEW GAME</button>
+            </div>
+        </div>
+        
+        <!-- Link to external JS, at the end to make sure the DOM is fully loaded -->        
+        <script src="index.js"></script>
+    </body>
+</html>
+
+<!-- Sources
+
+    https://www.cdnfonts.com/seven-segment.font
+
+-->

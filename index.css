@@ -1,0 +1,90 @@
+/* Styling for all buttons */
+
+button {
+    background-color: #19244D;
+    color: white;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 1px;
+}
+
+/* Heading styling */
+
+h3 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+h4 {
+    margin: 30px 10px 10px 10px
+}
+
+/* Body Styling */
+
+body {
+    margin: 0;
+    background: linear-gradient(#19244D, #F88158);
+}
+
+/* Styling for the main body */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+
+/* Styling for counters */
+
+.counterStyling {
+    background-color: black;
+    font-weight: bold;
+    font-family: "Seven Segment", sans-serif;
+    text-align: right;
+    height: 110px;
+    font-size: 100px;
+    padding: 0px 5px;
+}
+
+.redCount {
+    width: 150px;
+    color: red;
+    margin: 0px 0px 10px;
+}
+
+.orangeCount {
+    width: 80px;
+    color: orange;
+    margin: 0px auto 0px;
+}
+
+/* Period Section */
+
+#period-el {
+    margin-top: 0px;
+}
+
+#period-section {
+    margin: 50px 10px;
+}
+
+/* The Clock */
+
+#clock-el {
+    width: 230px;
+    margin: 10px auto;
+}
+
+/* Reset Section of the page */
+
+#resetSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+
