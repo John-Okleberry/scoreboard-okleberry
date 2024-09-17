@@ -15,7 +15,7 @@ let guestFoulsTotal = 0
 
 /* Game Timer variables */
 
-let boardSeconds = 00;
+let boardSeconds = 0;
 let boardMinutes = 15;
 let boardTime = "15:00";
 let startCountDown = setInterval(countDown, 1000);
