@@ -52,6 +52,7 @@ function minusOne() {
     else 
     {
         boardSeconds = 0;
+        console.log("New value: " + boardSeconds)
     }
     updateClock(); 
 }
