@@ -32,7 +32,7 @@ let isHalfTime = false;
 function halfTime() {
     isHalfTime = true;
     boardPeriod.textContent = "H"
-    boardSeconds = 00;
+    boardSeconds = 0;
     boardMinutes = 5;
     boardTime = "5:00";
     updateClock(); 
@@ -48,6 +48,10 @@ function minusOne() {
     if (boardMinutes >= 1)
     {
         boardMinutes -= 1;
+    }
+    else 
+    {
+        boardSecons = 0;
     }
     updateClock(); 
 }
@@ -100,7 +104,7 @@ function updateClock() {
 /* Reset the clock to 15 minutes whenever needed */
 
 function resetTime() {
-    boardSeconds = 00;
+    boardSeconds = 0;
     boardMinutes = 15;
     updateClock();
 }
