@@ -1,24 +1,29 @@
 # Scoreboard
 
+
+
 ## Project Overview 
-"Scoreboard" is a counting app meant to emulate a standard scoreboard used in basketball games. Basic HTML, CSS, and JavaScript are all demonstrated. Stretch goals were completed and functionality was expanded beyond the original scope of 3 buttons and a display to track points. Functionality such as a countdown timer and persisting period states were added while expanding the project scope.
+"Scoreboard" is a counting app meant to emulate a standard scoreboard used in basketball games. Basic HTML, CSS, and JavaScript are all demonstrated. Stretch goals were completed and functionality was expanded beyond the original scope of three buttons and a display to track points(per each of two teams). Functionality such as a countdown timer and persisting period states were added while expanding the project scope.
 
 
 ## Features
 
-__Requirements:__ </br>
+![example given](image.png)
+
+__Requirements:__ <br/>
 - Build it from "scratch"
 - Follow the design (taken from a Figma file)
 - Make all six buttons work (+1, +2, + 3 for both home and guest)
 
-__Stretch Goals:__ </br>
+__Stretch Goals:__ <br/>
 
 - Add a "New Game" button
 - Highlight the leader
 - Add a few more counters (e.g. period, fouls, timer)
 - Change the design (make it your own, turn into a counter for a different sport)
 </br>
-_My Implementation:_ </br>
+
+**My Implementation:**<br/>
 
 - Changed the background to a gradient
 - Added a countdown clock including
@@ -32,8 +37,8 @@ _My Implementation:_ </br>
 ## Installation
 Install the dependencies and run the project
 
-npm install
-npm start
+npm install<br/>
+npm start<br/>
 Head over to https://vitejs.dev/ to learn more about configuring vite
 
 ## Contributing
