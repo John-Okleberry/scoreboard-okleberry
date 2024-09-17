@@ -1,7 +1,7 @@
 # Scoreboard
 
 ## Project Overview 
-"Scoreboard" is a basic counting app meant to emulate a standard scoreboard used in basketball games. Basic HTML, CSS, and JavaScript are all demonstrated.
+"Scoreboard" is a counting app meant to emulate a standard scoreboard used in basketball games. Basic HTML, CSS, and JavaScript are all demonstrated. Stretch goals were completed and functionality was expanded beyond the original scope of 3 buttons and a display to track points. Functionality such as a countdown timer and persisting period states were added while expanding the project scope.
 
 
 ## Features
@@ -18,7 +18,7 @@ __Stretch Goals:__ <br>
 - Add a few more counters (e.g. period, fouls, timer)
 - Change the design (make it your own, turn into a counter for a different sport)
 <br>
-_My Implementation:_
+*My Implementation:* <br>
 - Changed the background to a gradient
 - Added a countdown clock including
     - Start/Stop
