@@ -6,19 +6,20 @@
 
 ## Features
 
-__Requirements:__ <br>
+__Requirements:__ </br>
 - Build it from "scratch"
 - Follow the design (taken from a Figma file)
 - Make all six buttons work (+1, +2, + 3 for both home and guest)
 
-__Stretch Goals:__ <br>
+__Stretch Goals:__ </br>
 
 - Add a "New Game" button
 - Highlight the leader
 - Add a few more counters (e.g. period, fouls, timer)
 - Change the design (make it your own, turn into a counter for a different sport)
-<br>
-*My Implementation:* <br>
+</br>
+_My Implementation:_ </br>
+
 - Changed the background to a gradient
 - Added a countdown clock including
     - Start/Stop
