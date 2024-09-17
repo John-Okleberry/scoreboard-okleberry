@@ -34,6 +34,21 @@ __Stretch Goals:__ <br/>
 - Added a new game button to reset all values to their start
 - Highlighted the winning team with a border
 
+## Challenges and Learning
+
+### DOM Element Initialization Order
+
+I received an error indicating that the boardClock wasn't initialized before it was access. With clarification from ChatGPT, I learned that this can occur if the JavaScript code runs before the DOM is fully constructed. The solution to address this issue was to set the script tag for the JavaScript just before the closing body tag in the HTML. This ensured that the DOM elements were created before the code was run and resolved the issue.
+
+### Calling SetInterval
+
+I received an error that I had called setInterval incorrectly. With some assistance from ChatGPT, I learned that I should not pass countDown as a function call but as a reference to the function. I made this change by removing the () from the function within the setInterval parameter list. Before doing so, the countDown function would be referenced immediately, rather than as called for by the setInterval function.
+
+### Clearing SetInterval
+
+While reviewing this information, ChatGPT also highlighted the importance of using clearInterval() to ensure that multiple countdown instances did not exist simultaneously.
+
+
 ## Installation
 Install the dependencies and run the project
 
