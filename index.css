@@ -42,20 +42,20 @@ body {
     background-color: black;
     font-weight: bold;
     font-family: "Seven Segment", sans-serif;
-    text-align: right;
-    height: 110px;
+    text-align: end;
+    block-size: 110px;
     font-size: 100px;
     padding: 0px 5px;
 }
 
 .redCount {
-    width: 150px;
+    inline-size: 150px;
     color: red;
     margin: 0px 0px 10px;
 }
 
 .orangeCount {
-    width: 80px;
+    inline-size: 80px;
     color: orange;
     margin: 0px auto 0px;
 }
@@ -63,7 +63,7 @@ body {
 /* Period Section */
 
 #period-el {
-    margin-top: 0px;
+    margin-block-start: 0px;
 }
 
 #period-section {
@@ -73,7 +73,7 @@ body {
 /* The Clock */
 
 #clock-el {
-    width: 230px;
+    inline-size: 230px;
     margin: 10px auto;
 }
 
