@@ -51,7 +51,7 @@ function minusOne() {
     }
     else 
     {
-        boardSecons = 0;
+        boardSeconds = 0;
     }
     updateClock(); 
 }
